@@ -10,7 +10,7 @@ public class ImageEditorFrame extends JFrame{
 		setSize(400, 300);
 		setVisible(true);
 
-hhhhhhhhhhh
+
 
 }
 	public static void main (String [] args){
