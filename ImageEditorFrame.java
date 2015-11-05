@@ -9,13 +9,8 @@ public class ImageEditorFrame extends JFrame{
 		setDefaultCloseOperation(EXIT_ON_CLOSE); 
 		setSize(400, 300);
 		setVisible(true);
-<<<<<<< HEAD
-dededede
+		setTitle("BildEditor");
 
-=======
-
-hhhhhhhhh
->>>>>>> e210563dd4b6df528f40c692c154c2f04ec07453
 
 }
 	public static void main (String [] args){
