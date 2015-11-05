@@ -12,16 +12,23 @@ public class ImageEditorFrame extends JFrame{
 		setTitle("BildEditor");
 }
 	private void createMenuBar(){
+	
+	
 JMenuBar menuBar = new JMenuBar(); 
 setJMenuBar(menuBar);
 JMenu menuFile = new JMenu("File"); 
 menuBar.add(menuFile);
 JMenuItem menuItemOpen = new JMenuItem("Open"); 
-menuFile.add(menuItemOpen); menuItemOpen.addActionListener(
-new ActionListener() {
+menuFile.add(menuItemOpen); 
+menuItemOpen.addActionListener(new ActionListener() {
 public void ActionPerformed(ActionEvent e ){
-
 onOpen();
+}
+
+@Override
+public void actionPerformed(ActionEvent e) {
+	// TODO Auto-generated method stub
+	
 } 
 }
 ); 
