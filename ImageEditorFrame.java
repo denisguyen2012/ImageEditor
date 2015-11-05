@@ -12,10 +12,10 @@ import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
-public class ImageEditorFrame1 extends JFrame{ 
+public class ImageEditorFrame extends JFrame{ 
 	public JPanel panel;
 
-	public ImageEditorFrame1(){
+	public ImageEditorFrame(){
 		panel = new ImageEditorPanel();
 		add(panel);
 		
@@ -60,6 +60,6 @@ public class ImageEditorFrame1 extends JFrame{
 	}
 
 	public static void main (String [] args){
-		new ImageEditorFrame1();
+		new ImageEditorFrame();
 	}
 }
