@@ -18,7 +18,6 @@ public class ImageEditorFrame extends JFrame{
 	public ImageEditorFrame(){
 		panel = new ImageEditorPanel();
 		add(panel);
-		//test
 		//creating new Menubar
 		JMenuBar menuBar = new JMenuBar(); 
 		setJMenuBar(menuBar);
